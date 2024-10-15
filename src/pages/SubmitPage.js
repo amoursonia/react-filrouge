@@ -15,6 +15,9 @@ const Submit = () => (
         <div className="col">
           <input type="text" className="form-control" id="lastName" placeholder="Nom de famille" aria-label="Nom de famille" required />
         </div>
+        <div className="pseudo">
+          <input type="text" className="form-control" id="pseudo" placeholder="Pseudo" aria-label="Pseudo" required />
+        </div>
       </div>
       <div className="col">
         <input type="text" className="form-control" id="emailOrPhone" placeholder="Numéro mobile ou e-mail" aria-label="Numéro mobile ou e-mail" required />

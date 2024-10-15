@@ -297,7 +297,10 @@ font-size: 1.5em;
   list-style-type: none;
   padding: 0;
 }
-
+.pseudo{
+  color :red;
+  border: solid;
+}
 .conseils > li {
   margin: 10px 0;
   padding: 10px;
